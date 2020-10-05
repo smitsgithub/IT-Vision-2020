@@ -1,9 +1,3 @@
-/**
-* Template Name: MyResume - v2.1.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 !(function($) {
   "use strict";
 
@@ -129,7 +123,7 @@
     time: 1000
   });
 
-  // Skills section
+  // event section
   $('.skills-content').waypoint(function() {
     $('.progress .progress-bar').each(function() {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
@@ -146,7 +140,7 @@
     });
   }
 
-  // Porfolio isotope and filter
+  // event isotope and filter
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item'
@@ -172,7 +166,7 @@
 
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
+  // team carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -180,7 +174,7 @@
     items: 1
   });
 
-  // Portfolio details carousel
+  // events details carousel
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
